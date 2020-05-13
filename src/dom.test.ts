@@ -6,7 +6,6 @@ import {
   // Also can be imported from "queries"
   waitFor,
 } from '@testing-library/dom'
-import '@testing-library/jest-dom/extend-expect'
 
 function getExampleDOM() {
   const div = document.createElement('div')
